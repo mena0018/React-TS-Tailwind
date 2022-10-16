@@ -9,4 +9,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  mode: 'jit',
+  purge: ['./src/**/*.{js,ts,jsx,tsx}', './public/**/*.html',],
 }
