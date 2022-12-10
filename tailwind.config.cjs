@@ -1,9 +1,7 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", "./public/**/*.html"],
   theme: {
     extend: {},
   },
   plugins: [require("tw-elements/dist/plugin")],
-  mode: "jit",
-  purge: ["./src/**/*.{js,ts,jsx,tsx}", "./public/**/*.html"],
 };
